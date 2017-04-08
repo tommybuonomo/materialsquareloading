@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialSquareLoading">
+        <attr name="innerColor" format="color" />
+        <attr name="outerColor" format="color" />
+        <attr name="rotationInnerDuration" format="integer" />
+        <attr name="rotationOuterDuration" format="integer" />
+    </declare-styleable>
+</resources>
