@@ -1,42 +1,39 @@
-#Fast Circle Loading Animation
+# Material Squares Loading Animation
 
-A cool fast circle loading animation inspired by [this post](http://www.materialup.com/posts/loading-animation-interface) on [MaterialUp](http://www.materialup.com/)
+A cool squares loading animation ready to be imported in your project
 
-![ezgif com-video-to-gif 6](https://cloud.githubusercontent.com/assets/15737675/16543142/41550baa-40c7-11e6-81a0-54319f2ab15e.gif) ![ezgif com-video-to-gif 7](https://cloud.githubusercontent.com/assets/15737675/16544800/2beff760-4113-11e6-9dc4-c9304e93c657.gif)
-![ezgif com-video-to-gif 13](https://cloud.githubusercontent.com/assets/15737675/16546782/fe6714f2-4155-11e6-9d14-9a2770913ab7.gif) ![ezgif com-video-to-gif 14](https://cloud.githubusercontent.com/assets/15737675/16546787/3fb741ac-4156-11e6-8a98-4ece3e29f431.gif)
+![ezgif com-crop](https://cloud.githubusercontent.com/assets/15737675/24829479/aece5dc6-1c72-11e7-87a0-bf34e95f2146.gif) ![ezgif com-crop 1](https://cloud.githubusercontent.com/assets/15737675/24829547/2d1675dc-1c74-11e7-91f9-91614468b751.gif)
 
 
-##How to
-####Gradle
+## How to
+#### Gradle
 ```Gradle
 dependencies {
-    compile 'com.tbuonomo.andrui:fastcircleloading:1.0.0'
+    compile 'com.tbuonomo.andrui:materialsquareloading:1.0.0'
 }
 ```
-####In your XML layout
+#### In your XML layout
 ```Xml
-<com.tbuonomo.fastcircleloading.FastCircleLoading
-    android:layout_width="30dp"
-    android:layout_height="30dp"
-    android:layout_alignParentRight="true"
-    android:layout_alignParentTop="true"
-    app:backgroundColor="#D50000"
-    app:pointColor="#424242"
-    app:pointSize="5dp"
-    app:interpolator="anticipate_overshoot"
-    app:animationDuration="5000"/>
+    <com.tbuonomo.materialsquareloading.MaterialSquareLoading
+        android:id="@+id/material_square_loading_view"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerInParent="true"
+        app:innerColor="#69F0AE"
+        app:outerColor="#3F51B5"
+        app:rotationOuterDuration="9850"
+        app:rotationInnerDuration="6423"/>
 ```
 
-####Attributes
+#### Attributes
 | Attribute | Description |
 | --- | --- |
-| `pointColor` | Color of the points |
-| `backgroundColor` | Color of the background circle |
-| `pointSize` | Size of the points in dp (by default 5dp) |
-| `interpolator` | The interpolator to use for the points animation (by default `fastOutSlowIn`) |
-| `animationDuration` | Step duration of the animation in ms (by default 2000) |
+| `innerColor` | Color of the inner square |
+| `outerColor` | Color of the outer square |
+| `rotationOuterDuration` | Step duration of the outer rotation animation in ms |
+| `rotationInnerDuration` | Step duration of the inner rotation animation in ms |
 
-##License
+## License
     Copyright 2016 Tommy Buonomo
     
     Licensed under the Apache License, Version 2.0 (the "License");
