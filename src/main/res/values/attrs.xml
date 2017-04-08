@@ -5,5 +5,7 @@
         <attr name="outerColor" format="color" />
         <attr name="rotationInnerDuration" format="integer" />
         <attr name="rotationOuterDuration" format="integer" />
+        <attr name="outerRadius" format="dimension" />
+        <attr name="innerRadius" format="dimension" />
     </declare-styleable>
 </resources>

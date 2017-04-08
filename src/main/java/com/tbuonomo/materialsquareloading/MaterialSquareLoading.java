@@ -60,12 +60,16 @@ public class MaterialSquareLoading extends RelativeLayout {
   private void setUpAttrs(AttributeSet attrs) {
     int innerColor = DEFAULT_INNER_COLOR;
     int outerColor = DEFAULT_OUTER_COLOR;
+    float innerRadius = innerSquare.getRadius();
+    float outerRadius = outerSquare.getRadius();
     outerRotationDuration = DEFAULT_DURATION_ROTATION_OUTER;
     innerRotationDuration = DEFAULT_DURATION_ROTATION_INNER;
     if (attrs != null) {
       TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.MaterialSquareLoading);
       innerColor = a.getColor(R.styleable.MaterialSquareLoading_innerColor, DEFAULT_INNER_COLOR);
       outerColor = a.getColor(R.styleable.MaterialSquareLoading_outerColor, DEFAULT_OUTER_COLOR);
+      innerRadius = a.getDimension(R.styleable.MaterialSquareLoading_innerRadius, innerSquare.getRadius());
+      outerRadius = a.getDimension(R.styleable.MaterialSquareLoading_outerRadius, outerSquare.getRadius());
       innerRotationDuration = a.getInt(R.styleable.MaterialSquareLoading_rotationInnerDuration, DEFAULT_DURATION_ROTATION_INNER);
       outerRotationDuration = a.getInt(R.styleable.MaterialSquareLoading_rotationOuterDuration, DEFAULT_DURATION_ROTATION_OUTER);
       a.recycle();
@@ -73,6 +77,9 @@ public class MaterialSquareLoading extends RelativeLayout {
 
     innerSquare.setCardBackgroundColor(innerColor);
     outerSquare.setCardBackgroundColor(outerColor);
+
+    innerSquare.setRadius(innerRadius);
+    outerSquare.setRadius(outerRadius);
   }
 
   private void inflateSelf() {
