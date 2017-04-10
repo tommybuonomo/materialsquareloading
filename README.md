@@ -27,6 +27,15 @@ dependencies {
         />
 ```
 
+```Java
+materialSquareLoading = (MaterialSquareLoading) findViewById(R.id.material_square_loading_view);
+materialSquareLoading.show();
+
+// Do some stuff ...
+
+materialSquareLoading.hide();
+```
+
 #### Attributes
 | Attribute | Description |
 | --- | --- |
