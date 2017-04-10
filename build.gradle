@@ -58,17 +58,17 @@ bintray {
     key = localProps.getProperty("bintrayApiKey")
     pkg {
         repo = 'maven'
-        name = 'fast-circle-loading'
+        name = 'material-square-loading'
 
         version {
             name = '1.0.0'
-            desc = 'A cool fast circle loading animation in Android'
+            desc = 'A cool squares loading animation in Android'
             vcsTag = '1.0.0'
         }
 
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/tommybuonomo/rotationdotsloading'
-        websiteUrl = 'https://github.com/tommybuonomo/rotationdotsloading'
+        vcsUrl = 'https://github.com/tommybuonomo/materialsquareloading'
+        websiteUrl = 'https://github.com/tommybuonomo/materialsquareloading'
     }
     configurations = ['archives']
 }
