@@ -27,6 +27,7 @@ dependencies {
         />
 ```
 
+#### In your Java code
 ```Java
 materialSquareLoading = (MaterialSquareLoading) findViewById(R.id.material_square_loading_view);
 materialSquareLoading.show();
