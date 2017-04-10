@@ -16,13 +16,15 @@ dependencies {
 ```Xml
     <com.tbuonomo.materialsquareloading.MaterialSquareLoading
         android:id="@+id/material_square_loading_view"
-        android:layout_width="128dp"
-        android:layout_height="128dp"
-        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:innerColor="#69F0AE"
         app:outerColor="#3F51B5"
         app:rotationOuterDuration="9850"
-        app:rotationInnerDuration="6423"/>
+        app:rotationInnerDuration="6423"
+        app:innerRadius="8dp"
+        app:outerRadius="8dp"
+        />
 ```
 
 #### Attributes
