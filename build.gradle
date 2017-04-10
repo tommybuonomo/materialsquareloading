@@ -36,7 +36,7 @@ buildscript {
 }
 
 group = 'com.tbuonomo.andrui'
-version = '1.0.0'
+version = '1.0.1'
 
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.dcendents.android-maven'
@@ -63,7 +63,7 @@ bintray {
         version {
             name = '1.0.0'
             desc = 'A cool squares loading animation in Android'
-            vcsTag = '1.0.0'
+            vcsTag = version
         }
 
         licenses = ['Apache-2.0']
