@@ -2,8 +2,8 @@
 
 A cool squares loading animation ready to be imported in your project
 
-![ezgif com-crop](https://cloud.githubusercontent.com/assets/15737675/24829479/aece5dc6-1c72-11e7-87a0-bf34e95f2146.gif) ![ezgif com-crop 1](https://cloud.githubusercontent.com/assets/15737675/24829547/2d1675dc-1c74-11e7-91f9-91614468b751.gif)
-
+![ezgif com-crop 1](https://cloud.githubusercontent.com/assets/15737675/24829547/2d1675dc-1c74-11e7-91f9-91614468b751.gif)
+![ezgif com-crop](https://cloud.githubusercontent.com/assets/15737675/24829479/aece5dc6-1c72-11e7-87a0-bf34e95f2146.gif)![ezgif com-crop 2](https://cloud.githubusercontent.com/assets/15737675/24878125/27dfaed4-1e32-11e7-8c79-fdd9b6ab537a.gif)
 
 ## How to
 #### Gradle
