@@ -32,6 +32,8 @@ dependencies {
 | `outerColor` | Color of the outer square |
 | `rotationOuterDuration` | Step duration of the outer rotation animation in ms |
 | `rotationInnerDuration` | Step duration of the inner rotation animation in ms |
+| `innerRadius` | Radius in dp of the inner square |
+| `innerRadius` | Radius in dp of the outer square |
 
 ## License
     Copyright 2016 Tommy Buonomo
