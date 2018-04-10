@@ -9,7 +9,7 @@ A cool squares loading animation ready to be imported in your project
 #### Gradle
 ```Gradle
 dependencies {
-    implementation 'com.tbuonomo.andrui:materialsquareloading:1.0.1'
+    implementation 'com.tbuonomo.andrui:materialsquareloading:1.0.2'
 }
 ```
 #### In your XML layout
