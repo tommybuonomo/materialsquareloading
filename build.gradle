@@ -18,7 +18,7 @@ android {
 }
 
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
   testImplementation 'junit:junit:4.12'
   implementation 'com.android.support:appcompat-v7:27.1.1'
   implementation 'com.android.support:cardview-v7:27.1.1'
@@ -35,7 +35,7 @@ buildscript {
 }
 
 group = 'com.tbuonomo.andrui'
-version = '1.0.1'
+version = '1.0.2'
 
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.dcendents.android-maven'
@@ -60,7 +60,7 @@ bintray {
     name = 'material-square-loading'
 
     version {
-      name = '1.0.0'
+      name = version
       desc = 'A cool squares loading animation in Android'
       vcsTag = version
     }
